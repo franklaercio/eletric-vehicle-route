@@ -1,13 +1,11 @@
 # Roteamento de veículos elétricos para entregas em áreas urbanas
 
 <p align="center">
-  <img alt="Java" src="https://img.shields.io/badge/-Java-red?logo=openjdk&logoColor=white">
-  
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/franklaercio/blog-clean-architecture">
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="Java" src="https://img.shields.io/badge/-Java-red?logo=openjdk&logoColor=white" />
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/franklaercio/blog-clean-architecture"/>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"/>
    <a href="https://github.com/franklaercio/blog-clean-architecture/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/franklaercio/eletric-vehicle-route?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/franklaercio/eletric-vehicle-route?style=social"/>
   </a>
 </p>
 
@@ -39,7 +37,7 @@ Docentes: Elizabeth Ferreira Gouvea Goldbarg e Silvia Maria Diniz Monteiro Maia
 
 <div style="text-align: justify;">
   <p>A modelagem do grafo é feita com base nos seguintes participantes chaves do problema: cliente, veículo, rota, recarga e depósito. O cliente é descrito no grafo com o vértice e tem a sua capacidade esperada para uma determinada compra. Já com o veículo é simplesmente levado em consideração a sua capacidade para realizar uma viagem. A rota é a otimização feita pelo algoritmo, levando em consideração a capacidade dos veículos e o menor percurso a ser feito, sendo representada visualmente com as arestas. Já os pontos de recargas podem recuperar a capacidade máxima do veículo durante a rota. Por fim, o(s) depósito(s) são representados como capacidade zero(s) e é onde partem os veículos.</p>
-  <img src="assets/graph.jpg" alt="Imagem do grafo com um ponto central (depósito) e nós representando os clientes"/>
+  <img src="assets/graph.png" alt="Imagem do grafo com um ponto central (depósito) e nós representando os clientes" style="width: 500px; higth: 500px;"/>
   <p>Na figura acima é possível visualizar um exemplo de como é uma determinada região atendida por essa empresa. O nó central (com capacidade zero) é o depósito, e é dele onde partem as rotas realizadas pelos veículos. Além disso, cada vértice representa um cliente que tem uma capacidade definida pelo produto que ele irá receber.</p>
   <p>Por fim, a resolução das entregas dos produtos será executada respeitando todos os seguintes critérios abaixo: 
     <ul>
