@@ -90,4 +90,4 @@ The project successfully applied graph theory and the Clarke & Wright algorithm 
 3. Li, X., et al. (2020). A survey of electric vehicle routing and charging optimization: Models, algorithms, and applications. Energies, 13(4), 873. [MDPI](https://www.mdpi.com/2071-1050/12/24/10537).
 4. Hu, Q., Su, X., Ren, T., & Luo, Z. (2019). Electric vehicle routing problem: A review of models, algorithms, and applications. Journal of Cleaner Production, 208, 925-946. [HEP](https://journal.hep.com.cn/fem/EN/10.1007/s42524-021-0157-1).
 
-For more details, please refer to the [full report](file-P5Swgov3LVhfT2ORXm6gVBIt).
+For more details, please refer to the [full report](https://github.com/franklaercio/eletric-vehicle-route/blob/main/article/Roteamento%20de%20ve%C3%ADculos%20el%C3%A9tricos%20para%20entregas%20em%20%C3%A1reas%20urbanas.pdf).
